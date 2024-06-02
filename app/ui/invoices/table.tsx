@@ -116,6 +116,9 @@ export default async function InvoicesTable({
                 </tr>
               ))}
             </tbody>
+            <tfoot className='rounded-lg text-left text-sm font-normal'>
+              <tr><td>Per Page</td></tr>
+            </tfoot>
           </table>
         </div>
       </div>
